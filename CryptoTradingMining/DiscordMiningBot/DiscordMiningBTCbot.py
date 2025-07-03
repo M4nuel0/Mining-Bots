@@ -11,11 +11,11 @@ intents = discord.Intents.all()   #For set the intents in the bot
 
 bot = Client(intents=intents)    #Assigned at the variable bot the value Client from library discord
 
-channel_id = 1037847972311990272
+channel_id = 
 
 TOKEN = ''    #Rappresentative TOKEN of the channel
 
-FILENAME = 'target_price.txt'
+FILENAME = ''
 
 def get_target_price():
     with open(FILENAME) as f:
