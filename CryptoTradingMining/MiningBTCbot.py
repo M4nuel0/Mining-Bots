@@ -16,8 +16,8 @@ def mine(block_number, transactions, previous_hash):
     return 1
 
 block_number = 24
-transactions = "76123fcc2142"
-previous_hash = "876de8756b967c87"
+transactions = ""
+previous_hash = ""
 
 nonce_found = 16
 
